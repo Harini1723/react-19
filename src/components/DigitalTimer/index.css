@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(toLeft, #ffffff, #cffcf1, #defafe);
+  background-position: center;
+}
+.head {
+  color: #1e293b;
+  font-family: roboto;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+}
+.img {
+  width: 200px;
+  height: 40vh;
+}
+.card {
+  border-radius: 55px;
+  width: 150px;
+  height: 200px;
+  border-width: 0px;
+}
+.head-time {
+  color: #00d9f5;
+  font-family: roboto;
+}
+.para {
+  color: #0f172a;
+  font-family: roboto;
+}
+.device-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.start-pause-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  width: 40px;
+  height: 40px;
+}
+.start-img {
+  width: 40px;
+  height: 40px;
+}
+.para-set {
+  font-family: Roboto;
+  color: #1e293b;
+}
+.rest-container {
+  display: flex;
+  flex-direction: row;
+}
+.result-set {
+  color: #1e293b;
+  font-family: Roboto;
+}
+.increment-container {
+  display: flex;
+  flex-direction: row;
+}
+.card-para {
+  background-image: linear-gradient(toLeft #00d9f5, green);
+  color: #0f172a;
+  font-family: roboto;
+  border-width: 0px;
+  width: 80px;
+  height: 50px;
+}
