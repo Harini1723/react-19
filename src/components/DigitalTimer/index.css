@@ -1,7 +1,19 @@
 /* Write your CSS here */
 .bg-container {
-  background-image: linear-gradient(toLeft, #ffffff, #cffcf1, #defafe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    toBottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
   background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .head {
   color: #1e293b;
@@ -12,34 +24,45 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 400px;
+  height: 50vh;
+  background-size: cover;
 }
-.img {
-  width: 200px;
-  height: 40vh;
-}
+
 .card {
-  border-radius: 55px;
-  width: 150px;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  width: 100px;
+  height: 15vh;
   border-width: 0px;
+  background-color: white;
 }
 .head-time {
   color: #00d9f5;
   font-family: roboto;
+  font-size: 20px;
 }
 .para {
   color: #0f172a;
   font-family: roboto;
+  font-size: 12px;
+  font-weight: bold;
 }
 .device-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .text-container {
   display: flex;
@@ -49,10 +72,15 @@
 .start-pause-container {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 .button {
   width: 40px;
   height: 40px;
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 30px;
 }
 .start-img {
   width: 40px;
@@ -61,6 +89,8 @@
 .para-set {
   font-family: Roboto;
   color: #1e293b;
+  font-weight: bold;
+  font-size: 20px;
 }
 .rest-container {
   display: flex;
@@ -69,16 +99,30 @@
 .result-set {
   color: #1e293b;
   font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
 }
 .increment-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .card-para {
   background-image: linear-gradient(toLeft #00d9f5, green);
   color: #0f172a;
   font-family: roboto;
+  font-size: 25px;
   border-width: 0px;
   width: 80px;
   height: 50px;
+  background-size: cover;
+}
+.button1 {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 25px;
 }
